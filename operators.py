@@ -48,4 +48,6 @@ def divide(a,b):
     Returns: 
         Division of a by b
     """
+    if b == 0:
+        raise ValueError("division by 0 isn't allowed")
     return a // b
