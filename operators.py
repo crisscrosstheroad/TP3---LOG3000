@@ -35,7 +35,7 @@ def multiply(a,b):
     Returns: 
         Product of a and b
     """
-    return a ** b
+    return a * b
 
 def divide(a,b):
     """
