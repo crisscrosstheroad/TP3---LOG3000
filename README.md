@@ -37,8 +37,9 @@ Ainsi qu'avoir un compte Github.
 
 3. Utiliser l'application: la calculatrice est composée de boutons cliquables représentant les operateurs et les opérantes. Le bouton C sert à vider l'écran et le = sert à calculer l'expression mathématique et afficher le résultat.
 
-## Tests
-Il n'y a présentement aucun test.
+## Exécution des tests
+Afin d'exécuter les tests, il faut lancer la commande `python -m unittest discover tests` dans la racine du projet.
+Pour exécuter des tests spécifiques, il faut lancer la commande `python -m unittest tests.test_filename`
 
 ## Flux de contribution
 - Issues:
